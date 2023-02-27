@@ -97,8 +97,9 @@ td.navigation{
     width: 20%;
     text-align: center;
     font-size: 1.4em;
-    padding: 12px;
-    border: 6px solid #e8e8cf;
+    padding: 14px;
+    border: 5px outset #e8e8cf;
+    border-radius: 10px;
 }
 
 /* Sponsor Images */
