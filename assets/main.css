@@ -38,8 +38,9 @@ body{
     width: 1000px;
 }
 
-a{color: #b8860b; text-decoration:none;}
-a.current{color: #52739e;}
+a{color: #3a7f83; text-decoration:none; font-family:'Roboto Slab',serif;}
+a.current{color: #a45374;}
+
 a.current:hover{color: #e82945;}
 a:hover{color: #b2132e;}
 a:active{color: #e82945;}
