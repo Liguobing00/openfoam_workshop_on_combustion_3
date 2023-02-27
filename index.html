@@ -43,51 +43,40 @@
         </tr>
     </table>
 
-   <!-- <div w3-include-html="main-content.html"></div> -->
-   <div w3-include-html="main-content-nearLimitFlames.html"></div>
 
+<h2 id="welcome">Welcome</h2>
+<p>The 2nd International Workshop on Near Limit Flames will be held on July 27-28, 2019 at at Zhong-Guan-Yuan Global Village (Chinese map here) of Peking University, Beijing, China, before the 27th International Colloquium on the Dynamics of Explosions and Reactive Systems (ICDERS 2019).</p>
+<h2 id="scope">Scope</h2>
+<p>To meet the goals of the Paris Agreement, limiting global warming to 1.5C above pre-industrial levels, CO2 emissions from combustion power generation need to be reduced. Advanced engine technologies working at near-limit conditions such as low temperature combustion, cool flames, mild combustion, supercritical combustion, high pressure and high Renolds number combustion, ignition assisted combustion, pressure gain combustion, detonation, oxyfuel combustion, microscale combustion, and plasma assisted combustion have great potential to improve combustion efficiency and reduction emissions. The drastic changes in fuels, combustion modes, and the extreme engine operation conditions will significantly change the flame regimes and dynamics at near limit conditions. As such, it is necessary to advance fundamental understanding of near limit flame dynamics at extreme conditions for co-optimization of engine and fuel design. The workshop aims to discuss the recent progress and challenges and to formulating future collaborations in theoretical, computational, and experimental studies of near limit flame dynamics in the areas such as,</p>
+<ul>
+<li><p>Combustion instability and flame dynamics</p></li>
+<li><p>Engine knocking and detonation</p></li>
+<li><p>Fires and explosion</p></li>
+<li><p>High pressure and supercritical combustion</p></li>
+<li><p>Low temperature combustion and Ignition Assisted Combustion</p></li>
+<li><p>Microscale combustion</p></li>
+<li><p>Plasma assisted combustion and mild combustion</p></li>
+<li><p>Oxyfuel combustion and new combustion technologies</p></li>
+<li><p>Combustion Chemistry and Diagnostics</p></li>
+</ul>
+<h2 id="topics-and-sessions">Topics and Sessions</h2>
+<p>At each workshop, the scientific committee will select a few topics to identify what are the important applications and technical issues, what we know, and what we do not know. Each workshop session will include one or more invited lectures to give a broad overview of the field and potential applications, a few highlight lectures to present the recent progresses and challenges, and additional volunteering talks to highlight interesting findings and results given by volunteering speakers. Volunteering speakers need to contact the corresponding Topic Coordinators by email to arrange his/her talks by May 31, 2019. A parallel discussion session will also be organized to discuss what need to be done and how to collaborate. The 2019 workshop topics/sessions and coordinators are:</p>
+<p><strong>Topic 1. Near-Limit Flames and Cool Flames</strong></p>
+<p><strong>(Coordinator, Prof. Zheng Chen, <a href="mailto:cz@pku.edu.cn" class="email">cz@pku.edu.cn</a>)</strong></p>
+<p><strong>Topic 2. Dynamics of Turbulent Flames</strong></p>
+<p><strong>(Coordinator, Prof. Michael Mueller, <a href="mailto:muellerm@princeton.edu" class="email">muellerm@princeton.edu</a>)</strong></p>
+<p><strong>Topic 3 Detonation and Explosion</strong></p>
+<p><strong>(Coordinator, Prof. Hoi Dick Ng, <a href="mailto:hoing@encs.concordia.ca" class="email">hoing@encs.concordia.ca</a> )</strong></p>
+<p><strong>Topic 4 New Combustion Concepts: Mild and Supercritical Combustion, …</strong></p>
+<p><strong>(Coordinator, Dr. Isaac Boxx, <a href="mailto:Isaac.Boxx@dlr.de" class="email">Isaac.Boxx@dlr.de</a>)</strong></p>
+<p>The program of each topic/session will be coordinated by the topic coordinators. The information of invited speakers, highlight speakers, and volunteering speakers will be updated on the workshop website as soon as the program is finalized. The scientific committee welcomes volunteers to give highlight talks.</p>
+<h2 id="deadlines">Deadlines</h2>
+<p><strong>April 1, 2019</strong> Online registration start on workshop website</p>
+<p><strong>May 31, 2019</strong> Early bird registration ends</p>
+<p><strong>May 31, 2019</strong> Volunteer highlight lecture application to TOPIC Coordinators</p>
+<p><strong>July 20, 2019</strong> Extended registration ends</p>
+<p><strong>July 27, 2019</strong> Onsite registration open (cash only)</p>
 
-
-
-   <script>
-      function addHTML() {
-         var el, i, domEl, fileName, xmlHttp;
-
-         /*Iterate all DOM*/
-         el = document.getElementsByTagName("*");
-         for (i = 0; i < el.length; i++) {
-            domEl = el[i];
-
-            /*find the element having w3-include-html attribute*/
-            fileName = domEl.getAttribute("w3-include-html");
-            if (fileName) {
-
-               /*http request with attribute value as file name*/
-               xmlHttp = new XMLHttpRequest();
-               xmlHttp.onreadystatechange = function() {
-                  if (this.readyState == 4) {
-                     if (this.status == 200) {
-                        domEl.innerHTML = this.responseText;
-                     }
-                     if (this.status == 404) {
-                        domEl.innerHTML = "Page not found.";
-                     }
-
-                     /* Remove the attribute and invoke the function again*/
-                     domEl.removeAttribute("w3-include-html");
-                     addHTML();
-                  }
-               }
-               xmlHttp.open("GET", fileName, true);
-               xmlHttp.send();
-
-               /*function ends*/
-               return;
-            }
-         }
-      }
-      addHTML();
-   </script>
 
 
 <footer>
