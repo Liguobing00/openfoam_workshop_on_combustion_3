@@ -4,7 +4,7 @@
  * I've listed them here so that a user may easily
  * do a search-and-replace for these to change the site theme.
  *   'Roboto',sans-serif; Font for the title text
- *   'Roboto-Slab',serif; Font for the body text 
+ *   'Roboto-Slab',serif; Font for the body text
  *   #fafafa; Background color of the site
  *   #505050; Foreground (text) color of the site
  *   #52739e; Navy, "Template" in the logo, current page in navigation, special titles in the Program
@@ -28,10 +28,12 @@ body{
     background-color: #fafafa;
     background-size: cover;
     background-attachment: fixed;
-    color: #505050; 
-    text-align:left;
+    color: #505050;
+    text-align: center;
     font-family:'Roboto',sans-serif;
-    font-size:1em;
+    /* font-size:1em; */
+    /* line-height:1.5em; */
+    font-size:1.5em;
     line-height:1.5em;
     margin: 60px auto;
     width: 1000px;
@@ -81,14 +83,23 @@ th,td{
 .top-left {font-size:5.33em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;}
 .bottom-right {font-size:2.33em; color: #fafafa; line-height: 1.5em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
 
+
 /* Conference Title Logo */
-.title1{color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0;} 
+.title1{color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0;}
 .title2{color: #52739e; text-shadow: 1px 1px 3px #c0c0c0;}
 .year{color: #505050; font-size:0.67em; font-weight: lighter;}
 
 /* Navigation Links (Home, Registration, etc) */
-table.navigation{width:800px;}
-td.navigation{font-size:1.67em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
+table.navigation{
+    width: 1000px;
+    /* background-color: #ffffff; */
+}
+td.navigation{
+    float: none;
+    width: 20%;
+    text-align: center;
+    font-size: 1.6em;
+}
 
 /* Sponsor Images */
 table.sponsors{width:800px;}
