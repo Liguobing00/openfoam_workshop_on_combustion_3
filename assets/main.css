@@ -92,13 +92,14 @@ th,td{
 /* Navigation Links (Home, Registration, etc) */
 table.navigation{
     width: 1000px;
-    background-color: #f0f2f0;
+    /* background-color: #f0f2f0; */
 }
 td.navigation{
     width: 20%;
     text-align: center;
-    font-size: 1.6em;
-    padding: 20px;
+    font-size: 1.4em;
+    padding: 12px;
+    border: 6px solid #e8e8cf;
 }
 
 /* Sponsor Images */
